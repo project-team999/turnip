@@ -1,0 +1,95 @@
+.logo-wrapper {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.logo-explain {
+  margin-top: 30px;
+  width: 100%;
+  height: 105px;
+}
+
+.text-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ant-btn-block:hover {
+  background: #0ec95f;
+}
+
+.select-box:hover {
+  background: #caf3dc !important;
+}
+
+.phones:hover {
+  border: 1px solid #25b864 !important;
+}
+
+.password-box {
+  margin-top: 20px;
+}
+
+.password-box .ant-btn {
+  background: #25b864;
+  height: 100%;
+}
+
+.buttom-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+}
+
+.ant-select-selection--single:hover {
+  border: 1px solid #25b864 !important;
+}
+
+.ant-btn-block:hover {
+  background: #05c558;
+}
+
+.ant-input:hover {
+  border: 1px solid #25b864 !important;
+}
+
+.buttom-center-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.buttom-center-wrapper .buttom-item {
+  text-align: center;
+  line-height: 80px;
+  color: #096dd9;
+  cursor: pointer;
+}
+
+.buttom-center-wrapper .buttom-item:hover {
+  color: #137ff3;
+}
+
+.text-conetnt {
+  display: flex;
+}
+
+.text-conetnt .ant-input {
+  height: 100%;
+}
+
+.text-conetnt .ant-select {
+  height: 100%;
+  width: 90px;
+}
+
+.text-conetnt .ant-select .ant-select-selection {
+  height: 100%;
+  width: 90px;
+}

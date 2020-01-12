@@ -1,0 +1,58 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "5475143",
+      "name": "书籍",
+      "font_class": "shuji",
+      "unicode": "e6d5",
+      "unicode_decimal": 59093
+    },
+    {
+      "icon_id": "5718107",
+      "name": "书籍",
+      "font_class": "shuji1",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "7511338",
+      "name": "书籍",
+      "font_class": "shuji2",
+      "unicode": "e501",
+      "unicode_decimal": 58625
+    },
+    {
+      "icon_id": "7678415",
+      "name": "书籍",
+      "font_class": "shuji3",
+      "unicode": "e54f",
+      "unicode_decimal": 58703
+    },
+    {
+      "icon_id": "9450515",
+      "name": "书籍",
+      "font_class": "shuji4",
+      "unicode": "e502",
+      "unicode_decimal": 58626
+    },
+    {
+      "icon_id": "9629592",
+      "name": "书籍",
+      "font_class": "shuji5",
+      "unicode": "e50f",
+      "unicode_decimal": 58639
+    },
+    {
+      "icon_id": "11154732",
+      "name": "书籍",
+      "font_class": "icon-test2",
+      "unicode": "e503",
+      "unicode_decimal": 58627
+    }
+  ]
+}

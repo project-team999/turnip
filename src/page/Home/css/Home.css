@@ -1,0 +1,113 @@
+.home {
+  display: flex;
+  justify-content: space-around;
+}
+
+.home-header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-right-box {
+  position: absolute;
+  right: -60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-box {
+  position: absolute;
+  left: -30px;
+}
+
+.header-list {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header-list li {
+  flex: 1;
+  text-align: center;
+  line-height: 100px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.header-list li.logo-text {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.header-list li.logo-text img {
+  width: 40px;
+  height: 70px;
+}
+
+.header-list li.header-list-space {
+  position: relative;
+}
+
+.header-list li.header-list-space .space-icon {
+  position: absolute;
+  top: 25px;
+  right: -5px;
+  border-radius: 10px;
+  width: 40px;
+  height: 17px;
+  background: #52d38a;
+  text-align: center;
+  line-height: 17px;
+  font-size: 5px;
+  color: #fff;
+}
+
+.header-list li:hover {
+  color: #98e9bb;
+}
+
+.img-btns {
+  cursor: pointer;
+}
+
+.go-login {
+  width: 80px;
+  height: 40px;
+  border: 1px solid #25b864 !important;
+}
+
+.go-login:hover {
+  color: #25b864 !important;
+}
+
+.toregisters {
+  width: 100px;
+  height: 40px;
+  background: #25b864 !important;
+}
+
+.home-img-box {
+  position: relative;
+  margin-top: 10px;
+}
+
+.home-img-box .img-btn {
+  position: absolute;
+  width: 100;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  left: 45%;
+  top: 41%;
+  border-radius: 450px;
+}
+
+.home-img-box .img-btn.active {
+  background: rgba(214, 214, 214, 0.5);
+}

@@ -1,0 +1,38 @@
+.list-item-wrapper {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 10px;
+    // border-top: 1px solid #ccc;
+    border-left: 1px solid rgb(226, 224, 224);
+    border-right: 1px solid rgb(230, 230, 230);
+    border-bottom: 1px solid rgb(235, 235, 235);
+    // border: 1px solid #ccc;
+    cursor: pointer;
+    display: flex;
+    .title {
+        width: 200px;
+    }
+
+    .type {
+        width: 300px;
+        text-align: center;
+    }
+
+    .synopsis {
+        width: 350px;
+    }
+    .magage{
+        color: #1890ff;
+        text-align: right;
+    }
+}
+.list-item-wrapper:hover{
+    background: #e9f7ec;
+}
+.knowledge{
+    // padding: ;
+    .item_title{
+        border: 1px solid #ccc;
+    }
+}

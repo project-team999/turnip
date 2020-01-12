@@ -1,0 +1,117 @@
+.header-container {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid rgb(230, 228, 228);
+    z-index: 999;
+    height: 60px;
+}
+
+.header-main-conetnt {
+    width: 1134px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    // background: red;
+    .main-left-box {
+        width: 900px;
+        display: flex;
+        align-items: center;
+
+
+        .logo-wrapper {
+            width: 200px;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            img {
+                width: 30px;
+                height: 30px;
+
+            }
+
+            span {
+                width: 50px;
+                height: 30px;
+                text-align: center;
+                font-size: 18px;
+            }
+        }
+
+        .search-box {
+            width: 220px;
+            .ant-input-affix-wrapper{
+                // background: #b32020 !important;
+            }
+            .ant-input:hover{
+                border:1px solid  #0ec95f;
+                // background: #b32020 !important;
+                
+            }
+
+        }
+
+        .tab-title-wrapper {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 300px;
+            height: 100%;
+
+            .title-list {
+                margin-top: 10px;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+
+                li {
+                    flex: 1;
+                    text-align: center;
+                    line-height: 30px;
+                    cursor: pointer;
+                }
+                li:hover{
+                    color: #0ec95f;
+                }
+                li:nth-child(1) {
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+
+    .main-right-box {
+        flex: 1;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        div{
+            width: 50px;
+            cursor: pointer;
+        }
+        div:hover{
+            color: #0ec95f;
+        }
+        .news{
+            width: 40px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            font-size: 10px;
+            text-align: right;
+            span{
+                width: 15px;
+                height: 15px;
+                background: #0ec95f;
+                border-radius: 15px;
+                text-align: center;
+                line-height: 15px;
+                color: #fff;
+                font-weight: 600;
+            }
+        }
+    }
+}

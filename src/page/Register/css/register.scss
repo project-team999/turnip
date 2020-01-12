@@ -1,0 +1,121 @@
+.logo-wrapper {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.logo-explain {
+    margin-top: 30px;
+    width: 100%;
+    height: 105px;
+}
+
+.text-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+.protocol{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .content{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #8c8c8c;
+    }
+    span{
+        text-align: center;
+        // line-height: 80px;
+        color: #096dd9;
+        cursor: pointer;
+    }
+    span:hover{
+        color: #0979f1;
+    }
+}
+.ant-select-selection--single:hover{
+    border: 1px solid #25b864 !important;
+
+}
+.ant-input:hover{
+    border: 1px solid #25b864 !important;
+
+}
+// .ant-input-password:hover{
+//     border: 1px solid #25b864 !important;
+// }
+.select-box:hover{
+    background: #caf3dc !important;
+}
+.phones:hover{
+    border: 1px solid #25b864 !important;
+}
+// .password-input:hover{
+//     border: 1px solid #25b864 !important;
+// }
+// .ant-input-affix-wrapper:hover{
+//     border: 1px solid #25b864 !important;
+
+// }
+.password-box {
+    margin-top: 20px;
+
+    .ant-btn {
+        background: #25b864;
+        height: 100%;
+
+    }
+}
+
+.buttom-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+
+    // background: red;
+    
+
+}
+.buttom-center-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .buttom-item {
+        text-align: center;
+        line-height: 80px;
+        color: #096dd9;
+        cursor: pointer;
+    }
+    .buttom-item:hover{
+        color: #137ff3;
+    }
+}
+.ant-btn-block:hover{
+    background: #05c558;
+}
+.text-conetnt {
+    display: flex;
+
+    .ant-input {
+        height: 100%;
+    }
+
+    .ant-select {
+        height: 100%;
+        width: 90px;
+
+        .ant-select-selection {
+            height: 100%;
+            width: 90px;
+        }
+    }
+}

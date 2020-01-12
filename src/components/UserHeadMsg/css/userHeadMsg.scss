@@ -1,0 +1,107 @@
+.userHeadMsg-container {
+    // background: red;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid rgb(233, 232, 232);
+}
+
+.userHeadMsg-center-main-box {
+    width: 1134px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .user-left-msg-box {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        div{
+            cursor: pointer;
+        }
+        .user-img {
+            width: 80px;
+            height: 70px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            text-align: center;
+            line-height: 70px;
+
+            img {
+                width: 30px;
+                height: 30px;
+                border-radius: 15px;
+            }
+        }
+
+        .user-name {
+            width: 80px;
+            height: 70px;
+            text-align: center;
+            line-height: 70px;
+        }
+
+
+        .user-collect:hover {
+            border: 1px solid #0ec95f;
+            color: #0ec95f;
+        }
+
+        .accention:hover {
+            border: 1px solid #0ec95f;
+            color: #0ec95f;
+        }
+
+        .user-collect {
+            width: 50px;
+            height: 20px;
+            text-align: center;
+            line-height: 20px;
+            // background: red;
+            // background: #0ec95f;
+            // color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .accention {
+            width: 80px;
+            height: 20px;
+            text-align: center;
+            line-height: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-left: 10px;
+        }
+    }
+
+    .user-right-btn-box {
+        display: flex;
+
+        div {
+            margin-left: 10px;
+            
+            cursor: pointer;
+            .ant-dropdown-trigger{
+                background: #0ec95f;
+                span{
+                    color: #fff;
+                }
+                &.ant-dropdown-open{
+                    color: #fff !important;
+                    span{
+                        color: #fff !important;
+                    }
+                }
+            }
+            .ant-btn:hover {
+                border: 1px solid #0ec95f;
+
+                span {
+                    color: #0ec95f;
+                }
+            }
+        }
+    }
+}

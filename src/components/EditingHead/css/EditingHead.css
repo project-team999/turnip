@@ -1,0 +1,56 @@
+.edit-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  background: #fff;
+  border: 1px solid #ebe9e9;
+  padding: 0 10px;
+}
+
+.edit-container .edit-right-box {
+  height: 100%;
+  width: 350px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.edit-container .edit-left-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.edit-container .edit-left-box div {
+  width: 80px;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.edit-container .edit-left-box div .ant-btn-lg {
+  width: 60px;
+  height: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.edit-container .edit-left-box div .ant-btn-primary {
+  background: #25b864;
+}
+
+.edit-container .edit-left-box div .ant-btn-primary:hover {
+  background: #6dc995;
+}
+
+.edit-container .edit-left-box div .ant-btn-lg:hover {
+  border: 1px solid #25b864;
+}
+
+.edit-container .edit-left-box div .ant-btn-lg:hover span {
+  color: #25b864;
+}
