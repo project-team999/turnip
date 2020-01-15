@@ -2,18 +2,20 @@ import React, { useLable, useState, lazy, Suspense } from 'react'
 import Header from '../../components/Header/Header'
 import { Switch, Route } from 'react-router-dom'
 import { Menu, Icon, Button } from 'antd';
+import RenderRoutes from '../../utils/RouterView'
+
 import './css/dashboard.css'
 
 
-const Knowledge =  lazy(() => import('../../components/Knowledge/Knoeledge.js'));
-const Appstore  =  lazy(() => import('./page/Appstore/Appstore'));
-const Database  =  lazy(() => import('./page/Database/Database'));
-const Collect   =  lazy(() => import('./page/Collect/Collect'));
-const History   =  lazy(() => import('./page/History/History'));
-const Gloval    =  lazy(() => import('./page/Global/Global'));
-const Heart     =  lazy(() => import('./page/Heart/Heart'));
-const Sync      =  lazy(() => import('./page/Sync/Sync'));
-const Rest      =  lazy(() => import('./page/Rest/Rest'));
+// const Knowledge =  lazy(() => import('../../components/Knowledge/Knoeledge.js'));
+// const Appstore  =  lazy(() => import('./page/Appstore/Appstore'));
+// const Database  =  lazy(() => import('./page/Database/Database'));
+// const Collect   =  lazy(() => import('./page/Collect/Collect'));
+// const History   =  lazy(() => import('./page/History/History'));
+// const Gloval    =  lazy(() => import('./page/Global/Global'));
+// const Heart     =  lazy(() => import('./page/Heart/Heart'));
+// const Sync      =  lazy(() => import('./page/Sync/Sync'));
+// const Rest      =  lazy(() => import('./page/Rest/Rest'));
 
 
 
@@ -25,7 +27,7 @@ const Dashboard = props => {
 
     let { Wrapper, Img, TextBox } = useLable;
     let [collapsed, setCollapsed] = useState()
-    let { history } = props
+    let { history,routes} = props
 
     return (
         <Wrapper className="dashboard-container" bg="#fafafa">
@@ -109,9 +111,9 @@ const Dashboard = props => {
                 </Wrapper>
 
 
+                <RenderRoutes routes={routes}/>
 
-
-                <Suspense fallback={<div>Loading...</div>}>
+                {/* <Suspense fallback={<div>Loading...</div>}>
                     <Switch>
                         <Route path="/dashboard/knowledge" component={Knowledge}></Route>
                         <Route path="/dashboard/appstore" component={Appstore}></Route>
@@ -123,7 +125,7 @@ const Dashboard = props => {
                         <Route path="/dashboard/sync" component={Sync}></Route>
                         <Route path="/dashboard/rest" component={Rest}></Route>
                     </Switch>
-                </Suspense>
+                </Suspense> */}
 
 
 

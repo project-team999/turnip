@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route, Switch, Redirect } from 'react-router-dom';
 
-export default routes=>{
+export default ({routes})=>{
     return <Switch>
         {
             routes&&routes.map((item, index)=>{

@@ -1,9 +1,10 @@
 import React, { lazy, Suspense } from 'react'
 import { Switch, Route, Redirect } from 'react-router-dom'
 
+//router
+import DashboardRouter from '../page/Dashboard/router'
 
 
-const Dashboard  =    lazy(() => import('../page/Dashboard/Dashboard.js'));
 const Register   =    lazy(() => import('../page/Register/Register.js'));
 const Newsword   =    lazy(() => import('../page/NewsWord/NewsWord'));
 const Login      =    lazy(() => import('../page/Login/Login'));
@@ -25,8 +26,7 @@ const Docs       =    lazy(() => import('../page/Docs/Docs.js'));
                 component:Register,
             },
             {
-                path:"/dashboard",
-                component:Dashboard,
+            ...DashboardRouter
             },
             {
                 path:"/docs",
