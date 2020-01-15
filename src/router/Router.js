@@ -10,29 +10,58 @@ const Login      =    lazy(() => import('../page/Login/Login'));
 const Home       =    lazy(() => import('../page/Home/Home'));
 const Docs       =    lazy(() => import('../page/Docs/Docs.js'));
 
+    const routes=[
+            
+            {
+                path:'/home',
+                component:Home,
+            },
+            {
+                path:"/login",
+                component:Login,
+            },
+            {
+                path:"/register",
+                component:Register,
+            },
+            {
+                path:"/dashboard",
+                component:Dashboard,
+            },
+            {
+                path:"/docs",
+                component:Docs,
+            },
+            {
+                path:"/newsword",
+                component:Newsword,
+            },
+            {
+                path:"/",
+                redirect:'/home',
+            },
+]
+
+
+
+// const Router = props => {
+
+//     return (
+//         <Suspense fallback={<div>Loading...</div>}>
+//             <Switch>
+//                 <Route path='/home' exam component={Home}></Route>
+//                 <Route path='/login' exam component={Login}></Route>
+//                 <Route path='/register' exam component={Register}></Route>
+//                 <Route path='/dashboard' exam component={Dashboard}></Route>
+//                 <Route path='/docs' exam component={Docs}></Route>
+//                 <Route path='/newsword' exam component={Newsword}></Route>
+//                 <Redirect to="/home" exam from="/" ></Redirect>
+//             </Switch>
+//         </Suspense>
+//     )
+// }
 
 
 
 
-
-const Router = props => {
-
-    return (
-        <Suspense fallback={<div>Loading...</div>}>
-            <Switch>
-                <Route path='/home' exam component={Home}></Route>
-                <Route path='/login' exam component={Login}></Route>
-                <Route path='/register' exam component={Register}></Route>
-                <Route path='/dashboard' exam component={Dashboard}></Route>
-                <Route path='/docs' exam component={Docs}></Route>
-                <Route path='/newsword' exam component={Newsword}></Route>
-                <Redirect to="/home" exam from="/" ></Redirect>
-            </Switch>
-        </Suspense>
-    )
-}
-
-
-
-
-export default Router;
+export default routes;
